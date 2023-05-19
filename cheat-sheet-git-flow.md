@@ -13,7 +13,6 @@ Gitflow is an alternative Git branching model that involves the use of feature b
 * If an issue in main is detected a hotfix branch is created from main
 * Once the hotfix is complete it is merged to both develop and main
   
-.
 
 | ***Git Flow***                         | ***Git commands***                                         |
 |---------------------------------------|------------------------------------------------------|
@@ -31,7 +30,6 @@ Gitflow is an alternative Git branching model that involves the use of feature b
 | Publish a hotfix branch               | `` git flow hotfix publish <hotfix-name> ``         |
 | Get a hotfix branch                   | `` git flow hotfix pull origin <hotfix-name> ``     |
 
-.
 
 ---
 

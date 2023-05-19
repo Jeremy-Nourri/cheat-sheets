@@ -1,6 +1,6 @@
 ## **Cheat sheet Git**
 ---
-.
+
 
 | ***Configure Git***                     | ***Git commands***                                       |
 |---------------------------------------|------------------------------------------------------|
@@ -9,14 +9,14 @@
 | Verify your git username              | `` git config --global user.name ``                  |
 | Verify your git email                 | `` git config --global user.email ``                 |
 | Verify your git settings              | `` git config --list ``                              |
-.
+
 
 | ***Create or Clone a Repository***                | ***Git commands***                                        |
 |---------------------------------------|------------------------------------------------------|
 | Create a new local repository         | `` git init ``                                       |
 | Clone a repository                    | `` git clone ssh://utilisateur@exemple.fr/nouveau-depot.git ``                  |                          |
 
-.
+
 
 | ***Remote***                     | ***Git commands***                                         |
 |---------------------------------------|------------------------------------------------------|
@@ -27,7 +27,6 @@
 | Remove a remote repository            | `` git remote rm <remote-name> ``                    |
 | Add upstream repository               | `` git remote add upstream <remote-url> ``           |
 
-.
 
 
 | ***Add & Commit***                     | ***Git commands***                                         |
@@ -41,14 +40,14 @@
 | Show changes over time for a specific file | `` git log -p <filename> ``                          |
 | Show who changed what and when in file name | `` git blame <filename> `` |
 
-.
+
 
 | ***Pushing Changes***                  | ***Git commands***                                         |
 |---------------------------------------|------------------------------------------------------|
 | Push all branches to your remote repository | `` git push origin --all ``                          |
 | Push master branch to your remote repository | `` git push origin master ``                         |
 
-.
+
 
 | ***Branches***                         | ***Git commands***                                         |
 |---------------------------------------|------------------------------------------------------|
@@ -61,7 +60,7 @@
 | Delete a remote branch                | `` git push origin --delete <branchname> ``          |
 | Delete a remote branch                | `` git push origin :<branchname> ``                  |
 
-.
+
 
 | ***Update & Merge***                   | ***Git commands***                                         |
 |---------------------------------------|------------------------------------------------------|
@@ -69,7 +68,6 @@
 | Merge branchname into your current branch | `` git merge <branchname> ``                        |
 | View all the merge conflicts | `` git diff --check ``                              |
 
-.
 
 
 | ***Stash***                            | ***Git commands***                                         |
@@ -77,7 +75,7 @@
 | Stash changes in a dirty working directory | `` git stash ``                                    |
 | List all stashed changesets           | `` git stash list ``                                |
 
-.
+
 
 | ***Tags***                             | ***Git commands***                                         |
 |---------------------------------------|------------------------------------------------------|
